@@ -12,6 +12,17 @@ roscore
 
 # 请不要在运行代码时按键CREL + Z；可以按ctrl + c来停止代码
 
+# 简单的demo
+终端运行
+mkdir ~/catkin_ws  
+mkdir src  
+cd src 
+把代码放在src目录下面
+然后终端运行：
+cd ~/catkin_ws  
+catkin_make  
+source devel/setup.bash  
+rosrun cantest canTest1  
 ---------------------
 ## canTest4
 
